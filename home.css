@@ -1,0 +1,54 @@
+.ins-name {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+.custom-hover:hover {
+    color: rgb(28, 213, 238) !important;
+}   
+.greetings {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 255, 242));
+    height: 250px;
+}
+.main {
+    margin-top: -50px;
+    background: linear-gradient(to bottom, rgb(0, 255, 242), rgb(91, 126, 124));
+}
+.course1 , .course2 , .course3 {
+    width: 250px;
+    height: auto;
+}
+.course1 {
+    margin-left: 20px;
+}
+.course2 {
+    margin-left: -290px;
+}
+.course3 {
+    margin-left: -290px;
+}
+.achive-con {
+    background: #183a3a;
+}
+.tropy-img {
+    width: 10px;
+    height: 130px;
+}
+.con {
+    background: linear-gradient(to top, rgb(0, 255, 242), rgb(91, 126, 124));
+    height: auto;
+    margin-top: -50px;
+}
+.gall-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.gall-item.animate-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.about-us {
+    background: linear-gradient(to top,rgb(0, 0, 0), rgb(0, 255, 242) );
+}
